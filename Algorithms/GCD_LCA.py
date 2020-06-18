@@ -8,7 +8,7 @@ def gcd(a, b):
     return a
 
 
-print('Нахождение НОД и НОК числе а и b:')
+print('Нахождение НОД и НОК чисел а и b:')
 print('a = ')
 a = int(input())
 print('b = ')
