@@ -6,7 +6,7 @@ def encrypt(s, key, val):
     return ''.join([chr(ord('а') + i) if i != ord('я') - ord('а') + 1 else ' ' for i in s])
 
 
-print('Шифр Вижинера для строки s ключа key')
+print('Шифр Вижинера для строки s и ключа key')
 print('s = ')
 s = input()
 print('key = ')
