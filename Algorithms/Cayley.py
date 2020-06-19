@@ -12,3 +12,14 @@ for i in range(0, a):
     for j in range(0, a):
         s += str((i + j) % a) + ' '
     print(s)
+print('_________________________________')
+s = '* '
+for i in range(0, a):
+    s += str(i) + ' '
+print(s)
+for i in range(0, a):
+    s = str(i) + ' '
+    for j in range(0, a):
+        s += str((i * j) % a) + ' '
+    print(s)
+

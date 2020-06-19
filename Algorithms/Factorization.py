@@ -18,4 +18,4 @@ print('a = ')
 a = int(input())
 dividers = get_dividers(a)
 s = [(str(key) if value == 1 else '%d^%d' % (key, value)) for (key, value) in dividers.items()]
-print(' * '.join(s))
+print(' * '.join(s) if a > 0 else '-' + ' * '.join(s))
